@@ -6,7 +6,8 @@ import Header from './todo/header';
 import {Route} from 'react-router-dom';
 import Home from './home/home';
 import Boards from './board/boards';
-
+import {ToastContainer, toast} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'
 
 class App extends Component{
   
@@ -129,8 +130,7 @@ class App extends Component{
           </Route>
           <Route path="/home" component={Home}/>
           <Route path="/boards" component={Boards}/>
-          
-          
+          <ToastContainer/>
       </>
     );
   }

@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import {ItemModal} from './itemModal'
 import TodoActions from './todoActions';
+import {toast} from "react-toastify";
 
 export default class TodoItem extends Component {
     constructor(props) {
@@ -25,10 +26,19 @@ export default class TodoItem extends Component {
         }))
     }
     isDone = () => {
-        this.setState(({done})=>({
-            done:!done
-        }))  
+        this.setState(() => ({
+            done:!this.state.done
+        }))
+
+        if (!this.state.done) {
+            this.getToastTodoDone();
+        }
     }
+
+    getToastTodoDone = () => {
+        return toast.success('Постоянство, упорство! Вперед, вперед!', {icon: false})
+    }
+
     onChangeDescription = (description) => {
         this.setState(({description}))
     }
