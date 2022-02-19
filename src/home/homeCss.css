@@ -1,0 +1,8 @@
+.home__content {
+    flex: 3;
+    margin: 10px;
+}
+.home__main-page {
+    padding: 2.5% 15% 0;
+    display: flex;
+}

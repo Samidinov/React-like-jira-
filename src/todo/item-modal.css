@@ -1,0 +1,58 @@
+html body .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+html body   .modal-main {
+    position:fixed;
+    background: white;
+    width: 80%;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+
+html body   .display-flex {
+    display: flex;
+  }
+  
+
+html body   .display-none {
+    display: none;
+  }
+.radio_btn {
+  margin: 2px;
+  height: 15px;
+  border-radius: 50%;
+  border-color: white;
+}
+
+.btn__none {
+  /* background: #63eb72; */
+  background: white;
+}
+.btn__green {
+  /* background: #63eb72; */
+  background: green;
+}
+.btn__red {
+  /* background: #db6044; */
+  background:red;
+}
+.btn__blue {
+  background: #42bcf5;
+  background: blue;
+}
+.btn__purple {
+  /* background: #a169f5; */
+  background: purple;
+}
+.btn__yellow {
+  /* background: #fffd7a; */
+  background: #db911a;
+}

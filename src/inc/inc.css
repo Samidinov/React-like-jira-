@@ -1,0 +1,20 @@
+
+.menu__navbar-item {
+    display: block;
+}
+
+.menu__navbar-item:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.menu__navbar {
+    font-weight: bold;
+    flex: initial;
+}
+
+.menu__navbar-left {
+    flex: 1;
+}

@@ -1,0 +1,26 @@
+.boards { 
+    padding: 2.5% 15% 0;
+    display: flex;
+}
+.boards__all-list {
+    display: 3;
+    margin-left: 10px;
+}
+.boards__all-item {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.todos__item-title {
+    display: inline;
+    align-items: center;
+}
+.todos__item-container {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    background: grey;
+}
